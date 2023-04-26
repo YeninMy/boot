@@ -1,9 +1,9 @@
 /* styles.css */
 
 :root {
-    --tiffany-color: #81D8D0;
-    --text-color: #333;
-    --background-color: #f0f0f0;
+    --tiffany-color: #4fdcce;
+    --text-color: #78c7c0;
+    --background-color: #f8f2f8;
 }
 
 body {
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-    color: #007BFF;
+    color: #c895d7;
 }
 
 form {
@@ -79,7 +79,7 @@ button {
 }
 
 button:hover {
-    background-color: #007BFF;
+    background-color: #c895d7;
 }
 
 p {

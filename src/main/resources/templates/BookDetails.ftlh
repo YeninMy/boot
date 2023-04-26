@@ -11,7 +11,6 @@
 <h1>${book.name}</h1>
 <p>Author: ${book.author}</p>
 <p>Genre: ${book.genre}</p>
-
-<a href="/">Return to main paige</a>
+<h2><a href="/">Return to main paige</a></h2>
 </body>
 </html>
