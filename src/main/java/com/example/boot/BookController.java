@@ -39,6 +39,7 @@ public class BookController {
         bookService.saveBook(book);
         return "redirect:/";
     }
+
     @GetMapping("/book/{id}")
     public String getBookDetails(@PathVariable int id, Model model) {
         Book book = bookService.getBookById(id);
@@ -50,4 +51,9 @@ public class BookController {
         return "BookDetails";
     }
 
+    @GetMapping("/test")
+    public String test() {
+
+        return "test";
+    }
 }
